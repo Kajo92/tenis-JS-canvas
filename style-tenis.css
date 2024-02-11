@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: brown; /* Ustawienie koloru tła dla strony */
+}
+
+canvas {
+    border: 3px solid #fff; /* Ustawienie obramowania dla canvas */
+    
+}
+
+#score {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Położenie cienia */
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #082E79, #DC143C); /* Gradient między kolorami #082E79 i #DC143C */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+
+
+.mid {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    z-index: -1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.right {
+    z-index: -1;
+    display: flex;
+    align-items: flex-end
+}
+
+.photo1 {
+   
+    max-width: 250px;
+}
+
+.photo2 {
+    z-index: -1;
+    max-width: 250px;
+}
